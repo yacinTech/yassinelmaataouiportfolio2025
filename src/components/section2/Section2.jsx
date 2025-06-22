@@ -6,10 +6,10 @@ function Section2(){
         <div className='container2'>
             <div className='abtsec'>
                 <h1>About me</h1>
-                <p>I have been coding for over 5 years, beginning my journey in 2020. Initially, I learned HTML, CSS, and JavaScript to build websites. <br /> <br />
+                <p>Hi, I'm Yassine El Maataoui.. I have been coding for over 3 years, beginning my journey in 2022. Initially, I learned HTML, CSS, and JavaScript to build websites. <br /> <br />
                     My first project was a simple website built with HTML, CSS, and JavaScript (~mid-2020). <br /> <br />
 
-                    As I progressed, I focused heavily on React.js and Next.js. Now, I specialize in building SaaS applications with modern web technologies.
+                    As I progressed, I focused heavily on React.js, Next.js, Expess.js, Node.js, MongoDB and Others . Now, I specialize in building SaaS applications with modern web technologies.
                 </p>
                 <a href="https://github.com/yacinTech"><button className='btn1'><i className="bi bi-github"></i> View My Github <i className="bi bi-arrow-right arrow-icon"></i></button></a>
                 <a href="/contact"><button className='btn2'>Contact me <i className="bi bi-arrow-right arrow-icon2"></i></button></a>
