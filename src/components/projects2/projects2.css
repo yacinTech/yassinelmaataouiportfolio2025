@@ -1,0 +1,95 @@
+.container4{
+    display: block;
+    margin-top: 90px;
+    
+}
+
+
+.text1 h4{
+    font-size: large;
+    font-weight: 900;
+    font-weight: 900;
+}
+
+.almajala1 {
+    height: auto;
+    width: 99%;
+    overflow: hidden;
+    
+
+}
+.almajala1 img{
+    width: 99%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+
+}
+.almajala1 .outils p{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+
+}
+
+.almajala1 button{
+    height: 33px;
+    width: auto;
+    border-radius: 8px;
+    background-color: rgb(21, 129, 211);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.almajala1 button i{
+    margin: 0 9px;
+}
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.almajala1 button:hover .arrow-icon {
+  transform: translateX(5px);
+}
+.almajala1 a{
+    text-decoration: none;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;    
+    
+
+}
+
+.more a{
+    text-decoration: none;
+    color: black;
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.more a:hover .arrow-icon {
+  transform: translateX(5px);
+  background-color: rgba(220, 220, 220, 0.233);
+}
+.more a:hover{
+    background-color: rgba(220, 220, 220, 0.233);
+}

@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+
+@media (max-width: 770px){
+  .listheader{
+    display: none;
+    
+  }
+  
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.listheader ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    
+}
+
+.listheader ul li{
+    margin-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    list-style-type: none;
+    
+}
+
+
+.linkwork{
+   text-decoration: none;
+   color: black;
+}
+.homeli1{
+  padding: 5px;
+  border-radius: 3px;
+}
+.homeli1:hover{
+    background-color: rgba(220, 220, 220, 0.721) ;
+    font-size: medium;
+    
+  
+    
+}
+ul li.no-hover:hover {
+  background-color: initial;
+  cursor: default;        
+}
+
+
+.setings{
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 16px;
+    height: 40px;
+    width: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 9px;
+  
+    
+    
+}
+.setings i{
+  transition: transform 0.5s ease;
+  
+}
+.setings i:hover{
+  transform: rotate(90deg);
+  
+}
+.setings:hover{
+  
+  
+  background-color: #ccc;
+}
+
+@media(max-width:770px){
+  .setings{
+    display: none;
+  }
+}
+.homeli{
+    background-color: rgba(220, 220, 220, 0.721);
+    font-size: medium;
+    height: 35px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%
+    
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: grid;
+  gap: 5px;
+  width: 250px;
+  height: 200px;
+  z-index: 100;
+  flex-direction: column;
+  
+}
+
+.dropdown li {
+  list-style: none;
+  
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 5px;
+  height: auto;
+  width: 90%;
+  
+}
+.dropdown li:hover{
+  background-color: aliceblue;
+}
+.dropdown i {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    flex-direction: row;
+}

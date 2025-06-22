@@ -1,0 +1,96 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.abt-msn{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../../public/images/intro\ pic.webp');
+    background-size: cover;
+    height: auto;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.abtm,
+.mission{
+    margin: 20px 20px;
+    width: 40%;
+    color: white;
+    backdrop-filter: blur(13px);                
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+@media(max-width:990px){
+    .abtm,
+    .mission{
+        width: 83%;
+        backdrop-filter: blur(4px);                
+        -webkit-backdrop-filter: blur(10px); 
+        font-size: small;
+        font-weight: 300;
+        color: whitesmoke;
+        background-size: cover;
+    }
+}
+@media(max-width:660px){
+    .abt-msn{
+        width: 100%;
+        background-size:cover;
+        height: auto;
+        margin: 0;
+        
+    }
+    .abtm,
+    .mission{
+        margin: 5px 10px;
+    }
+    .abtm h1,
+    .abtm h2,
+    .mission h1{
+        font-size: small;
+        font-weight: bold;
+        margin: 0;
+
+    }
+    
+   
+}
+.listgit{
+    width: 100%;
+}
+.listgit ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    cursor: pointer;
+
+    
+}
+.listgit ul li:hover{
+    font-weight: 500;
+    background-color: beige;
+}
+
+.listgit li {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* مسافة بين الأيقونة والنص */
+  font-weight: bold;
+}
+
+@media(max-width:570px){
+    .listgit ul li{
+        font-size: x-small;
+    }
+}

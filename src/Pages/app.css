@@ -1,0 +1,54 @@
+    /* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+    
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0 90px;
+      padding: 0;
+    }
+
+@media (max-width: 1000px){
+  body{
+    margin: 30px;
+  }
+}
+
+.presentation{
+  margin-bottom: 50px;
+}
+.presentation h1{
+  font-weight: 900;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;    
+    
+
+}
+
+.more a{
+    text-decoration: none;
+    color: black;
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.more a:hover .arrow-icon {
+  transform: translateX(5px);
+  background-color: rgba(220, 220, 220, 0.233);
+}
+.more a:hover{
+    background-color: rgba(220, 220, 220, 0.233);
+}

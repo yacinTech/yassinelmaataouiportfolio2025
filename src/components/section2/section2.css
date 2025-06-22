@@ -1,0 +1,236 @@
+.container2{
+    height: auto;
+    width: 100%;
+    margin: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px;
+
+}
+.abtsec{
+    width: 50%;
+    
+    
+}
+
+.abtsec p{
+    font-size: large;
+
+}
+.abtsec h1{
+    font-weight: 900;
+}
+.btn1{
+    height: 36px;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgb(18, 120, 194);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+    
+    
+}
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.btn1:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
+
+
+.btn2{
+    height: 36px;
+    width: 150px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.arrow-icon2{
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.btn2:hover .arrow-icon2 {
+  transform: translateX(5px);
+}
+
+
+.btn1 i{
+    
+    margin: 0 5px;
+
+}
+
+
+.btn2 i{
+    margin: 0 5px;
+}
+
+
+
+
+.my-studio{
+    display: block;
+    gap: 20px;
+    color: aliceblue;
+    width: 47%;
+    height: auto;
+    background-color: black;
+    margin-top: 30px;
+    
+    
+    border-radius: 25px;
+    
+    
+ 
+}
+
+.my-studio i{
+    margin: 10px 25px;
+    color: red;
+    
+
+}
+.my-studio p{
+    background-color: rgba(0, 0, 0, 0.048);
+    margin: 5px 25px;
+    
+}
+.my-studio a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+
+
+}
+
+.todo{
+    margin-top: 90px;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 40px;
+    width: 100%;
+    
+}
+.todo1 i{
+    margin: 25px 25px;
+}
+
+.todo1{
+    padding: 2px;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 10px 25px;
+    border-radius:20px;
+}
+
+
+.todo1 h4{
+    margin: 5px 25px;
+    font-size: small;
+
+}
+.todo2 i{
+    margin: 25px 25px;
+}
+.todo2{
+    padding: 2px;
+    border: 1px solid gray;
+    width: 50%;
+    margin: 10px 25px;
+    border-radius:20px;
+}
+.todo2 h4{
+    margin: 5px 25px;
+    font-size: small;
+
+}
+@media(max-width:1030px) {
+    .todo1,
+    .todo2{
+        margin: 0 2px;
+        width: 45%;
+        font-size: small;
+    }
+    
+}
+@media(max-width:920px){
+    .todo {
+        font-size: smaller;
+        padding: 0;
+        width: 94%;
+        flex-direction: column;
+        
+        
+    }
+      .todo1{
+        
+        width: auto;
+        margin: 10px 9px;
+        
+
+    }
+    .todo2{
+        width: auto;
+        margin: 5px 9px;
+    }
+    
+}
+
+@media(max-width:800px){
+    .container2{
+        width: 100%;
+        flex-direction: column;
+        margin: 0 0;
+
+    }
+    .abtsec{
+        width: 100%;
+
+
+    }
+    .my-studio{
+        margin: 0;
+        width: 100%;
+    }
+    .todo{
+        flex-direction: row;
+    }
+}
+@media (max-width:600px){
+    .todo {
+        font-size: smaller;
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .todo1{
+        
+        width: auto;
+        
+
+    }
+    .todo2{
+        width: auto;
+    }
+    
+  
+}
