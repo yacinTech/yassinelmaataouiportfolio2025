@@ -10,34 +10,14 @@ import Projects2 from '../components/projects2/Projects2'
 import MyTech from '../components/tech/MyTech'
 import Contact from '../components/contact/Contact'
 import Fouter from '../components/fouter/Fouter'
-import { Helmet } from "react-helmet";
+
 
 
 function Home() {
   return (
 
     <div className="App">
-      <Helmet>
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Yassine Maataoui",
-            "url": "https://yourdomain.com",
-            "sameAs": [
-              "https://github.com/yourprofile",
-              "https://www.linkedin.com/in/yourprofile"
-            ],
-            "jobTitle": "Web Developer",
-            "worksFor": {
-              "@type": "Organization",
-              "name": "Freelance"
-            }
-          }
-          `}
-        </script>
-      </Helmet>
+   
       
       
       <Header/>
