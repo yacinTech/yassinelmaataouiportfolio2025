@@ -15,7 +15,7 @@ function Works(){
             <Header/>
             <div className='presentation'>
                 <h1>My Work.</h1>
-                <p>I have been programming for 7 years and have worked on numerous projects. Below are some of my latest projects; you can find more on my GitHub profile.</p>
+                <p>I have been programming for 3 years and have worked on numerous projects. Below are some of my latest projects; you can find more on my GitHub profile.</p>
             </div>
             <Projects showُElement={false}/>
             <Projects3/>

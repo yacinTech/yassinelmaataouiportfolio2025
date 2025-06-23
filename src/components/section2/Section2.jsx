@@ -6,8 +6,8 @@ function Section2(){
         <div className='container2'>
             <div className='abtsec'>
                 <h1>About me</h1>
-                <p>Hi, I'm Yassine El Maataoui.. I have been coding for over 3 years, beginning my journey in 2022. Initially, I learned HTML, CSS, and JavaScript to build websites. <br /> <br />
-                    My first project was a simple website built with HTML, CSS, and JavaScript (~mid-2020). <br /> <br />
+                <p>I'm Yassine El Maataoui.. I have been coding for over 3 years, beginning my journey in 2022. Initially, I learned HTML, CSS, and JavaScript to build websites. <br /> <br />
+                    My first project was a simple website built with HTML, CSS, and JavaScript (~mid-2022). <br /> <br />
 
                     As I progressed, I focused heavily on React.js, Next.js, Expess.js, Node.js, MongoDB and Others . Now, I specialize in building SaaS applications with modern web technologies.
                 </p>
