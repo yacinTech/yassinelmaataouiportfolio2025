@@ -101,15 +101,13 @@
   background-color: #ccc;
 }
 
-.logo1{
+.logo1 a img{
     
-    font-weight: 500;
-    font-size: small;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
 }
-.logo1 a{
-    text-decoration: none;
-    color: black;
-}
+
 @media (max-width: 770px){
  
     .cntnr{

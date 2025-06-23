@@ -25,7 +25,7 @@ function Header() {
       <div className="listheader">
         <ul>
           <li className="no-hover">
-            <div className="logo"><a href="/"><h1>YM</h1></a></div>
+            <div className="logo"><a href="/"><img src="images/logo.jpg" alt="" /></a></div>
           </li>
           <li className="homeli"><Link to="/" className="linkwork">Home</Link> </li>
           <li className='homeli1'><Link to="/works" className="linkwork">My Work </Link></li>

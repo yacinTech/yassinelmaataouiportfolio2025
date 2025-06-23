@@ -37,8 +37,9 @@
         font-size: small;
         font-weight: 300;
         color: white;
-        background-size: cover;
+        
     }
+    
     .abtm p,
     .mission{
         font-weight: 700;
@@ -51,6 +52,10 @@
         height: auto;
         margin: 5px;
         
+    }
+    .abt-msn{
+        background-image: url('../../../public/images/photo\ yassine\ maataoui.jpg');
+        background-size: cover;
     }
     .abtm,
     .mission{

@@ -12,7 +12,7 @@ function Sidebar(){
     return(
         <div className='cntnr'>
             <div className='hider'>
-                <div className="logo1"><a href="/"><h1>YM</h1></a></div>
+                <div className="logo1"><a href="/"><img src="images/logo.jpg" alt="" /></a></div>
                 <div className="setings1">
                     <i className="bi bi-gear-wide-connected"></i>
                 </div>

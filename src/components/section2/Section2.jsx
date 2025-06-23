@@ -19,7 +19,7 @@ function Section2(){
             <div className='my-studio'>
                 <h1><i class="bi bi-file-code-fill"></i>My Studio</h1>
                 <p>Salut!🙏 Yassin.dev is more than a portfolio; it's a window into my world, where passion meets purpose. Discover my work.</p>
-                <a href="/yassin_maataoui1_cv.pdf" download > Download CV</a>
+                <a href="files/yassin_maataoui1_cv.pdf" download > Download CV</a>
                 <div className='todo'>
                     <div className='todo1'>
                         <i class="bi bi-code-slash"></i>
