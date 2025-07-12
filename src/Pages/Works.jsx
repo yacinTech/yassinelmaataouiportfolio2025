@@ -4,6 +4,7 @@ import Header from '../components/Header/Header'
 import Fouter from '../components/fouter/Fouter'
 import './app.css'
 import Projects3 from '../components/Project3/Projects3'
+import Projects4 from '../components/Project4/Project4'
 
 
 
@@ -20,6 +21,7 @@ function Works(){
             <Projects showُElement={false}/>
             <Projects3/>
             <Projects2 showُElement={false}/>
+            <Projects4/>
              <div className='more'>
                 <p>Want to see more? Check out my GitHub profile for more projects and contributions.</p>
                 <a href="#">View My Github  <i className="bi bi-arrow-right arrow-icon"></i></a>
